@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validators PUBLIC "-//OpenSymphony Group//XWork Validator 1.0.2//EN"
+"http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+<validators>
+<field name="reg1.fname">
+<field-validator type="requiredstring">
+<message>first Name is required.</message>
+</field-validator>
+</field>
+<field name="reg1.lname">
+<field-validator type="requiredstring">
+<message>Last Name is required.</message>
+</field-validator>
+</field>
+<field name="reg1.email">
+<field-validator type="requiredstring">
+<message>email is required.</message>
+</field-validator>
+</field>
+<field name="reg1.age">
+<field-validator type="int">
+<message>Age is required.</message>
+</field-validator>
+</field>
+</validators>
