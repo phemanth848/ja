@@ -1,4 +1,6 @@
 //java
+
+//Hello java
 public class Course { 
 private String title; 
 private String code; 
